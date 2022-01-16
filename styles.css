@@ -53,16 +53,13 @@ input {
 	height: 29px;
 	padding-left: 8px;
 }
-.input {
-	border: 1px solid #C7C7C7;
-}
 .search {
 	position: absolute;
 	cursor: pointer;
 	height: 25px;
 	width: 25px;
 	left: 146px;
-	background-color: white;
+	background-color: #fff;
 	border: none;
 }
 .circle {
@@ -300,10 +297,6 @@ h3 {
 	padding-left: 58px;
 	margin-bottom: 30px;
 }
-p a {
-	text-decoration: none;
-	color: #6EE3F5;
-}
 .sec4box3 {
 	padding-top: 50px;
 	padding-left: 50px;
@@ -361,4 +354,74 @@ footer {
 .originalprice {
 	margin-top: 10px;
 	padding-right: 1px;
+}
+.input:placeholder-shown {
+	border: 2px solid #4F9400;
+	}
+.input::placeholder {
+	color: #5EB200;
+}
+.input2:placeholder-shown {
+	border: 3px solid #4F9400;
+	background-color: rgba(96, 178, 0, 0.7);
+}
+.input2::placeholder {
+	color: #fff;
+}
+.input2:valid {
+	border: 3px solid #4F9400;
+	background-color: rgba(96, 178, 0, 0.7);
+}
+.input2:invalid {
+	border: 3px solid red;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.checkit:hover {
+	background-color: rgb(0, 130, 150);
+}
+.checkit:active {
+	background-color: rgb(0, 85, 98);
+}
+.sub:hover {
+	background-color: rgb(76, 143, 0);
+}
+.sub:active {
+	background-color: rgb(46, 87, 0);
+}
+p a:link {
+	text-decoration: none;
+	color: #6EE3F5;
+}
+p a:visited {
+	color: #6EE3F5;
+}
+p a:hover {
+	color: rgb(166,250,255);
+}
+p a:active {
+	color: #fff;
+}
+.circle:hover {
+	background-color: rgb(76, 143, 0);
+}
+.buy:hover {
+	background-color: rgb(76, 143, 0);
+}
+.circle:active {
+	background-color: rgb(46, 87, 0);
+}
+.buy:active {
+	background-color: rgb(46, 87, 0);
+}
+.circletwitter:hover {
+	background-color: rgb(204, 204, 204);
+}
+.sec4box4 div button:hover {
+	background-color: rgb(204, 204, 204);
+}
+.circletwitter:active {
+	background-color: rgb(150, 150, 150);
+}
+.sec4box4 div button:active {
+	background-color: rgb(150, 150, 150);	
 }
